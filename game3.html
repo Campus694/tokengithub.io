@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра Mines</title>
+    <link rel="stylesheet" href="game3.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Mins Royal👑</h1>
+        <p>Ваш баланс: <span id="balance">0</span></p>
+
+        <label for="bet">Ставка:</label>
+        <input type="number" id="bet" min="1" value="10">
+
+        <button id="placeBet">Сделать ставку</button>
+        <button id="collectPrize" disabled>Забрать ставку</button>
+
+        <p>Коэффициент: <span id="multiplier">1.00</span></p>
+
+        <div id="grid"></div>
+
+        <p><a href="index.html">Назад в меню</a></p>
+    </div>
+
+    <script src="game3.js"></script>
+</body>
+</html>
+
