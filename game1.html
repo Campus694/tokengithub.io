@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра Ракета</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Игра "Ракета"</h1>
+        <p>Ваш баланс: <span id="balance"></span></p>
+
+        <label for="bet">Ставка:</label>
+        <input type="number" id="bet" min="1" value="10">
+        <button id="placeBet">Сделать ставку</button>
+
+        <div id="rocket-area">
+            <img id="rocket" src="https://pngicon.ru/file/uploads/rocket.png" alt="Rocket">
+        </div>
+
+        <p>Коэффициент: <span id="multiplier">1.00</span></p>
+        <button id="cashOut" disabled>Забрать ставку</button>
+
+        <p><a href="index.html">Назад в меню</a></p>
+    </div>
+
+    <script src="game1.js"></script>
+</body>
+</html>
